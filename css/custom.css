@@ -1,0 +1,19 @@
+#logo-teck{
+    text-transform: uppercase!important;
+    font-family: Bebas Neue, sans-serif;
+  font-size: 3rem;
+
+  color: var(--light--heading-black);
+  line-height: 0.8;
+    font-weight: bold;
+    width: fit-content;
+}
+
+@media screen and (max-width:600px) {
+    #logo-teck{
+        font-size: 1em;
+        font-weight: 500 ;
+        letter-spacing: 3px;
+        max-width: 130px;
+    }
+}
